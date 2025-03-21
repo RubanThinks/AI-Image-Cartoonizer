@@ -1,0 +1,8 @@
+torch
+torchvision
+streamlit
+diffusers
+transformers
+Pillow
+qrcode
+requests

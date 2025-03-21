@@ -1,0 +1,31 @@
+{
+  "_name_or_path": "C:\\Users\\GOKULNATH\\.cache\\huggingface\\hub\\models--instruction-tuning-sd--cartoonizer\\snapshots\\94ae1467bb3a3b231cb444ab0acd4295836014f1\\safety_checker",
+  "architectures": [
+    "StableDiffusionSafetyChecker"
+  ],
+  "initializer_factor": 1.0,
+  "logit_scale_init_value": 2.6592,
+  "model_type": "clip",
+  "projection_dim": 768,
+  "text_config": {
+    "dropout": 0.0,
+    "hidden_size": 768,
+    "intermediate_size": 3072,
+    "model_type": "clip_text_model",
+    "num_attention_heads": 12,
+    "torch_dtype": "float32"
+  },
+  "torch_dtype": "float32",
+  "transformers_version": "4.49.0",
+  "vision_config": {
+    "_attn_implementation_autoset": true,
+    "dropout": 0.0,
+    "hidden_size": 1024,
+    "intermediate_size": 4096,
+    "model_type": "clip_vision_model",
+    "num_attention_heads": 16,
+    "num_hidden_layers": 24,
+    "patch_size": 14,
+    "torch_dtype": "float32"
+  }
+}
